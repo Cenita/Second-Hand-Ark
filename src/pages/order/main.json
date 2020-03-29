@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "i-tab-bar": "/static/iVew/tab-bar/index",
+    "i-tab-bar-item": "/static/iVew/tab-bar-item/index",
+    "van-search": "/static/Vants/search/index",
+    "van-button": "/static/Vants/button/index"
+  }
+}

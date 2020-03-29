@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/my/main",
+    "pages/map/main",
+    "pages/order/main"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二手智能柜小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents":{
+    "i-button":"/static/iVew/button/index",
+    "i-icon": "/static/iVew/icon/index",
+    "i-row": "/static/iVew/row/index",
+    "i-col": "/static/iVew/col/index",
+    "van-image": "/static/Vants/image/index",
+    "van-button": "/static/Vants/button/index",
+    "van-divider": "/static/Vants/divider/index",
+    "van-toast": "/static/Vants/toast/index"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "地图",
+      "pagePath": "pages/map/main",
+      "iconPath": "static/tabs/map.png",
+      "selectedIconPath": "static/tabs/map-active.png"
+    }, {
+      "text": "订单",
+      "pagePath": "pages/order/main",
+      "iconPath": "static/tabs/order.png",
+      "selectedIconPath": "static/tabs/order-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }],
+    "position": "bottom"
+  },
+  "plugins": {
+    "mapPlugin": {
+      "version": "1.0.6",
+      "provider": "wx5bc2ac602a747594"
+    }
+  },
+  "permission": {
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}
